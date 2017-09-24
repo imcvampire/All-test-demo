@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "dev": "webpack --profile --json > stats.json",
+    "build": "webpack -p --profile --json > stats.json",
     "start": "webpack-dev-server --content-base ."
   },
   "author": "",
